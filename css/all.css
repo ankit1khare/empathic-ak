@@ -169,7 +169,7 @@
   border-radius: 5px;
   border: 1px solid #c8c8c8;
   text-align: center;
-  width: 101px;
+  width: 113px;
   height: 40px;
   -webkit-transition: 50ms ease;
   transition: 50ms ease;
@@ -209,7 +209,7 @@
   background-color: #fff;
 }
 #landing_github {
-  right: 41px;
+  right: 28px;
 }
 #landing_linkedin {
   right: 129px;
