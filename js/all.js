@@ -607,13 +607,13 @@ $(document).ready(function () {
         (b = !0));
   }),
     $(".bigButton").on("click", showWork);
-  var v = 4;
-  $("#div4").css({ opacity: "1", "z-index": "3" }),
+  var v = 3;
+  $("#div3").css({ opacity: "1", "z-index": "2" }),
     $(".slideDir").on("click", function () {
       var t = $(this).attr("id");
       if ("slideRight" == t) {
         var e = v;
-        (v = parseInt(v) - 1), 0 == v && (v = 4);
+        (v = parseInt(v) - 1), 0 == v && (v = 3);
         var o = $("#div" + e),
           s = $("#div" + v);
         $(".projects");
