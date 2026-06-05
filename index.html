@@ -1,253 +1,732 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ankit Khare | AI DevRel & Developer GTM Leader</title>
-  <meta name="description" content="Ankit Khare builds AI Developer Relations and developer GTM functions end-to-end: narrative, demos, docs, launches, events, community, analytics, product feedback, and pipeline." />
-  <meta property="og:title" content="Ankit Khare | AI DevRel & Developer GTM Leader" />
-  <meta property="og:description" content="DevRel is the operating system between product, developers, and GTM. I build that system from 0 to 1 for AI products." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://empathicak.netlify.app/" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/all.css?v=devrel-gtm-2026" />
+	<meta charset="UTF-8">
+	<title>Ankit Khare</title>
+	<meta name="description" content="Digital resume / portfolio website - Ankit Khare.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- Oswald -->
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Raleway -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-  <header class="site-header" aria-label="Site navigation">
-    <a class="brand" href="#top" aria-label="Ankit Khare home">AK</a>
-    <nav class="nav-links">
-      <a href="#model">DevRel/GTM model</a>
-      <a href="#proof">Proof</a>
-      <a href="#case-studies">Case studies</a>
-      <a href="work.html">Work samples</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+	<section id="homescreen" class="startscreen">
+		<div id="navigationBar">
+			<div id="navigationButtonWrapper">
+				<a class="navbuttons" href="#" data-target="about">
+					<p class="navHeader">About</p>
+					<div class="expandingUnderline"></div>
+				</a>
+				<i class="fa fa-circle"></i>
+				<a class="navbuttons" href="#" data-target="education">
+					<p class="navHeader">Education</p>
+					<div class="expandingUnderline"></div>
+				</a>
+				<i class="fa fa-circle"></i>
+				<a class="navbuttons" href="#" data-target="experience">
+					<p class="navHeader">Experience</p>
+					<div class="expandingUnderline"></div>
+				</a>
+				<i class="fa fa-circle"></i>
+				<a class="navbuttons" href="#" data-target="projects">
+					<p class="navHeader">Projects</p>
+					<div class="expandingUnderline"></div>
+				</a>
+				<i class="fa fa-circle"></i>
+				<a class="navbuttons" href="#"  data-target="contact">
+					<p class="navHeader">Contact</p>
+					<div class="expandingUnderline"></div>
+				</a>
+ 			</div>
+ 			<a id="hamburger" href="#" data-target="expandMenu">
+			<div id="menuLine1" class="menuLine"></div>
+			<div id="menuLine2" class="menuLine"></div>
+			<div id="menuLine3" class="menuLine"></div>
+			<div id="menuLine4" class="menuLine"></div>
+		</a>
+		</div>
 
-  <main id="top">
-    <section class="hero section-shell">
-      <div class="hero-copy">
-        <p class="eyebrow">AI DevRel + Developer Go-To-Market</p>
-        <h1>I build DevRel as the operating system between product, developers, and GTM.</h1>
-        <p class="hero-lede">
-          I help AI companies turn technical products into developer adoption, product feedback, market narrative, partner distribution, and qualified pipeline. I can build the function end-to-end: positioning, demos, docs, content, launches, events, community, analytics, sales enablement, and the operating cadence that connects it all.
-        </p>
-        <div class="hero-actions" aria-label="Primary calls to action">
-          <a class="button primary" href="work.html">See selected work</a>
-          <a class="button secondary" href="pdf/cv.pdf" target="_blank" rel="noopener">Open resume</a>
-          <a class="button ghost" href="mailto:ankit1khare@gmail.com">Email me</a>
-        </div>
-      </div>
-      <aside class="operator-card" aria-label="DevRel operator summary">
-        <p class="card-label">What I build</p>
-        <ul class="operator-list">
-          <li><span>01</span> Narrative and category positioning</li>
-          <li><span>02</span> Technical demos, docs, workshops, and launch assets</li>
-          <li><span>03</span> Community, creators, partners, and field events</li>
-          <li><span>04</span> Product feedback loops from real developers</li>
-          <li><span>05</span> Analytics, attribution, and GTM reporting</li>
-          <li><span>06</span> Sales enablement and pipeline influence</li>
-        </ul>
-      </aside>
-    </section>
+		<a href="#" class="navbuttons" id="scrollDown" data-target="aboutDown">
+			<div>
+				<p>Let me introduce myself</p>
+			</div>
+			<i class="fa fa-angle-down"></i>
+		</a>
 
-    <section id="proof" class="proof-band" aria-label="Proof metrics">
-      <div class="metric">
-        <strong>3</strong>
-        <span>major enterprise deals influenced by fintech hackathons</span>
-      </div>
-      <div class="metric">
-        <strong>50x</strong>
-        <span>growth in monthly YouTube views at Rockset</span>
-      </div>
-      <div class="metric">
-        <strong>1,200</strong>
-        <span>regular workshop sign-ups grown from a 20-person baseline</span>
-      </div>
-      <div class="metric">
-        <strong>110k</strong>
-        <span>LinkedIn audience across company brand accounts</span>
-      </div>
-      <div class="metric">
-        <strong>600</strong>
-        <span>Discord members in a new multimodal AI community</span>
-      </div>
-    </section>
+		<div id="message">
+			<p id="span1">This is me.</p>
+			<p id="span2">Expanding my toolbox.</p>
+			<p id="span3">Working on things that interests me.</p>
+			<p id="span4">Exploring ideas.</p>
+			<p id="span5">Feeling social.</p>
+		</div>
 
-    <section id="model" class="section-shell split-section">
-      <div>
-        <p class="eyebrow">My thesis</p>
-        <h2>DevRel is not a content calendar. It is a developer GTM system.</h2>
-      </div>
-      <div class="rich-copy">
-        <p>
-          The strongest DevRel functions do more than produce blogs, talks, and community events. They connect the company’s technical truth to how developers evaluate, adopt, trust, and expand a product.
-        </p>
-        <p>
-          My work sits at that intersection: AI research depth, software engineering credibility, hands-on developer education, GTM execution, and enough operating discipline to make the work measurable.
-        </p>
-      </div>
-    </section>
+		<h1 id="hi">Hi. My name is Ankit. <br> <span>Developer Relations Specialist at Rockset</span></h1>
+		<h1 id="welcome">Welcome</h1>
 
-    <section class="section-shell systems-grid" aria-label="DevRel GTM operating model">
-      <article class="system-card">
-        <span class="system-number">01</span>
-        <h3>Technical narrative</h3>
-        <p>Translate product differentiation into category stories, benchmarks, launch narratives, competitive proof, and sales-ready messaging.</p>
-      </article>
-      <article class="system-card">
-        <span class="system-number">02</span>
-        <h3>Developer education</h3>
-        <p>Build demos, tutorials, workshops, docs, videos, and reference apps that help developers move from curiosity to proof.</p>
-      </article>
-      <article class="system-card">
-        <span class="system-number">03</span>
-        <h3>Distribution</h3>
-        <p>Create repeatable channels across creators, technical partners, meetups, hackathons, webinars, podcasts, social, SEO, AEO, and field events.</p>
-      </article>
-      <article class="system-card">
-        <span class="system-number">04</span>
-        <h3>Feedback loops</h3>
-        <p>Turn real developer friction into product signals, roadmap input, documentation fixes, demo improvements, and sharper positioning.</p>
-      </article>
-      <article class="system-card">
-        <span class="system-number">05</span>
-        <h3>Funnel analytics</h3>
-        <p>Instrument docs, playgrounds, websites, content, campaigns, and events so GTM teams can see what drives adoption and pipeline.</p>
-      </article>
-      <article class="system-card">
-        <span class="system-number">06</span>
-        <h3>Team-of-one leverage</h3>
-        <p>Operate hands-on while building the bench: writers, designers, community, creators, growth engineering, SEO, ads, and sales enablement.</p>
-      </article>
-    </section>
+		<div id="forestHolder"><img src="images/forest.svg" id="forest"></div>
+		<div id="mountainHolder"><img src="images/mountains.svg" id="mountain"></div>
+		<div id="mountainHolder2"><img src="images/mountains2.svg" id="mountain2"></div>
+		<div id="lowerBackground"></div>
 
-    <section id="case-studies" class="section-shell case-section">
-      <div class="section-heading">
-        <p class="eyebrow">Selected case studies</p>
-        <h2>Proof that the work connects to adoption, feedback, and GTM outcomes.</h2>
-      </div>
+		<a target="_blank", class="landing_link" id="landing_linkedin" href="work.html" style="right: 150px;">
+			<i class="fa fa-stack-1x fa-inverse">Work Samples</i>
+		</a>
 
-      <div class="case-grid">
-        <article class="case-card featured">
-          <div class="case-topline">
-            <span>LandingAI</span>
-            <span>Director of DevRel & Developer GTM</span>
-          </div>
-          <h3>Built the first DevRel/GTM function for agentic document AI.</h3>
-          <p>Owned the system across product narrative, developer education, benchmarks, analytics, hackathons, launches, events, and sales enablement.</p>
-          <ul>
-            <li>Ran 3 fintech hackathons that produced critical product feedback, qualified leads, and 3 major enterprise deals.</li>
-            <li>Led benchmark-backed positioning for Agentic Document Extraction and equipped GTM with competitive proof.</li>
-            <li>Connected docs, playground, website, and campaigns through analytics and attribution.</li>
-          </ul>
-          <div class="case-links">
-            <a href="https://landing.ai/blog/docvqa-benchmark" target="_blank" rel="noopener">DocVQA benchmark</a>
-            <a href="https://events.landing.ai/" target="_blank" rel="noopener">Hackathon site</a>
-            <a href="https://youtu.be/72Vw-d-OweI" target="_blank" rel="noopener">Launch video</a>
-          </div>
-        </article>
+		<a target="_blank", class="landing_link", id="landing_github", href="https://ankit1khare.github.io/Show_Infer_and_Tell-CIC">
+			<i class="fa fa-stack-1x fa-inverse">Research</i>
+		</a>
 
-        <article class="case-card">
-          <div class="case-topline">
-            <span>Rockset / OpenAI</span>
-            <span>Developer Marketing + DevRel</span>
-          </div>
-          <h3>Turned a technical database story into GenAI developer education and distribution.</h3>
-          <p>Built a contractor-backed content engine, ran partner webinars, supported INDEX Conference, and created workshops around RAG, Gemini, Bedrock, and OpenAI.</p>
-          <ul>
-            <li>Improved Rockset YouTube monthly views by 50x, watch time by 10x, and subscribers by 2x.</li>
-            <li>Built partner programs with LlamaIndex, Superlinked, founders, and AI infrastructure startups.</li>
-          </ul>
-          <div class="case-links">
-            <a href="https://www.youtube.com/watch?v=zYgwiLYkGoY" target="_blank" rel="noopener">LLM optimization talk</a>
-            <a href="https://finance.yahoo.com/news/rockset-announces-2024-index-conference-130000781.html" target="_blank" rel="noopener">INDEX Conference</a>
-          </div>
-        </article>
+	</section>
 
-        <article class="case-card">
-          <div class="case-topline">
-            <span>Abacus.AI</span>
-            <span>Head of Content & DevRel</span>
-          </div>
-          <h3>Scaled workshops, docs, demos, and product education for an enterprise AI platform.</h3>
-          <p>Managed docs, technical content, developer advocacy, workshops, demos, community, and product feedback loops across common enterprise ML use cases.</p>
-          <ul>
-            <li>Grew workshop engagement from 20 to 1,200 regular sign-ups.</li>
-            <li>Built product demo sessions for strategic prospects and led model showcase work during Series B.</li>
-          </ul>
-          <div class="case-links">
-            <a href="https://abacus.ai/help/useCases" target="_blank" rel="noopener">Documentation center</a>
-            <a href="https://youtu.be/_UojjKvC_s4?t=1069" target="_blank" rel="noopener">OCR workshop</a>
-          </div>
-        </article>
+	<section id="about" class="about">
+		<div id="aboutWrapper">
+			<h1 id="aboutMe" >About Me</h1>
+			<div id="aboutText">
+				<p>
+										Hi, my name is Ankit Khare. I am a Developer Relations Leader, creative content creator, and AI enthusiast. I am currently leading Developer Relations at Rockset.<br><br>
 
-        <article class="case-card">
-          <div class="case-topline">
-            <span>Twelve Labs</span>
-            <span>Lead Developer Experience Advocate</span>
-          </div>
-          <h3>Built developer education and community for multimodal video AI.</h3>
-          <p>Created API tutorials, demo applications, Bay Area talks, weekly webinars, Lunch and Learns, and a Discord community around video understanding AI.</p>
-          <ul>
-            <li>Participated in 40+ Bay Area tech events to increase product awareness.</li>
-            <li>Founded Multimodal Minds and grew it to 600 engaged members in three months.</li>
-          </ul>
-          <div class="case-links">
-            <a href="https://www.twelvelabs.io/blog/find-specific-moments-within-your-video-using-twelve-labs-simple-search-api?category-3=tutorials" target="_blank" rel="noopener">API tutorial</a>
-            <a href="https://youtu.be/3fY42kayR3I" target="_blank" rel="noopener">Video AI talk</a>
-          </div>
-        </article>
-      </div>
-    </section>
+					I specialize in creating and executing comprehensive DevRel programs, aligning DevRel strategy with GTM motions, and enhancing developer experiences through cross-functional collaboration with sales, marketing, product, and engineering teams. My work includes influencing product roadmaps, collaborating with AI influencers to leverage their communities, producing engaging developer content, and managing diverse creative content teams. I also have expertise in revamping documentation and social media channels, creating API tutorials and technical articles, developing social media strategies, building workshops, streamlining email marketing, managing SEO experts, and organizing impactful developer-centric, no-fluff engineering and science-focused community events.<br><br>
 
-    <section class="section-shell evidence-section">
-      <div class="section-heading compact">
-        <p class="eyebrow">Artifact library</p>
-        <h2>Work you can inspect.</h2>
-      </div>
-      <div class="evidence-grid">
-        <a class="evidence-card" href="work.html#benchmarks">
-          <span>Benchmarks + positioning</span>
-          <strong>Competitive proof, launch narrative, collateral</strong>
-        </a>
-        <a class="evidence-card" href="work.html#events">
-          <span>Events + hackathons</span>
-          <strong>Developer signal, enterprise conversations, partner distribution</strong>
-        </a>
-        <a class="evidence-card" href="work.html#education">
-          <span>Workshops + demos</span>
-          <strong>Code-alongs, technical talks, tutorials, demo apps</strong>
-        </a>
-        <a class="evidence-card" href="work.html#research">
-          <span>AI research</span>
-          <strong>BMVC oral paper, image captioning, computer vision systems</strong>
-        </a>
-      </div>
-    </section>
+					If you would like to know more about me or if you're just feeling social, feel free to reach out – I appreciate socializing and human connection. I believe that before anything else, we are all human beings. I value exchanging ideas, listening to people's stories, and learning from their life experiences.
+				</p>
+			</div>
+		</div>
+		<a id="resume" href="pdf/cv.pdf" target="_black">
+				<p>Resume</p>
+				<div id="resumeExpandingBackground"></div>
+		</a>
+		<div id="overResume">
+			<div id="bulbLineStartHolder"><div id="bulbLineStart"><div id="roofBoxLine"></div></div></div>
+			<div id="bulbLineStartBottom"></div>
+			<div class="bulbLine"></div>
+			<div class="bulbHolder">
+				<div class="footLine"></div>
+				<div class="bulb"><div class="bulbShine"></div></div>
+			</div>
+			<div id="shelf">
+				<div class="shelfPart">
+					<div class="leftShelfHolder">
+						<div>
+							<div class="upperScrew"></div>
+							<div class="lowerScrew"></div>
+						</div>
+					</div>
+					<div class="overBoardLeft"><div></div></div>
+					<div class="underBoardLeft"></div>
+					<div class="rightShelfHolder">
+						<div>
+							<div class="upperScrew"></div>
+							<div class="lowerScrew"></div>
+						</div>
+					</div>
+					<div class="overBoardRight"><div></div></div>
+					<div class="underBoardRight"></div>
+					<div class="shelfBoard"></div>
+					<div class="book" id="b1"></div>
+					<div class="book" id="b2"></div>
+					<div class="book" id="b3"></div>
+				</div>
+				<div class="shelfPart">
+					<div class="leftShelfHolder">
+						<div>
+							<div class="upperScrew"></div>
+							<div class="lowerScrew"></div>
+						</div>
+					</div>
+					<div class="overBoardLeft"><div></div></div>
+					<div class="underBoardLeft"></div>
+					<div class="rightShelfHolder">
+						<div>
+							<div class="upperScrew"></div>
+							<div class="lowerScrew"></div>
+						</div>
+					</div>
+					<div class="overBoardRight"><div></div></div>
+					<div class="underBoardRight"></div>
+					<div class="shelfBoard"></div>
+					<div class="book" id="b4"></div>
+					<div class="book" id="b5"></div>
+					<div class="book" id="b6"></div>
+					<div class="book" id="b7"></div>
+					<div class="book" id="b8"></div>
+					<div class="book" id="b9"></div>
+					<div id="rotatingBookCover"></div>
+				</div>
 
-    <section class="section-shell personal-note">
-      <p class="eyebrow">How I show up</p>
-      <h2>Technical enough for builders. Warm enough for community. Commercial enough for GTM.</h2>
-      <p>
-        My edge is not choosing between technical depth, creativity, empathy, and business outcomes. It is combining them. I like turning complex AI products into stories developers can trust, demos they can use, events they want to attend, and feedback loops that make the product and the business better.
-      </p>
-    </section>
-  </main>
+			</div>
+		</div>
+		<div id="underResume">
+			<div id="lamp">
+				<div id="tableLamp">
+					<div id="lampShadeBottom"></div>
+					<div id="lampShadeTop"></div>
+					<div id="lampShadeLeft"></div>
+					<div id="lampShadeRight"></div>
+				</div>
+				<div class="bulbHolder">
+					<div class="footLine"></div>
+					<div class="bulb"><div class="bulbShine"></div></div>
+				</div>
+				<div id="lampFoot"></div>
+				<div id="lampFootBallLeft"></div>
+				<div id="lampFootBallRight"></div>
+				<div id="lampBallUnder"></div>
+				<div id="thickLampLeg"><div id="lampLine"></div></div>
+				<div id="lampBallOver"></div>
+				<div class="bulbLine"></div>
+			</div>
+			<div id="backpackAndStool">
+				<div id="backpackHolder">
+					<div id="leftSidePocket"></div>
+					<div id="rightSidePocket"></div>
+					<div id="backpack">
+						<div id="backpackHanger"><div></div></div>
+						<div id="cover">
+							<div id="label"><div></div><div></div></div>
+							<div id="leftBuckle">
+								<div class="nit"></div>
+								<div class="nit"></div>
+								<div class="chromeThing">
+									<div class="roundThing"></div>
+								</div>
+								<div class="lowerBuckle">
+									<div class="pointyThing"></div>
+								</div>
+							</div>
+							<div id="rightBuckle">
+								<div class="nit"></div>
+								<div class="nit"></div>
+								<div class="chromeThing">
+									<div class="roundThing"></div>
+								</div>
+								<div class="lowerBuckle">
+									<div class="pointyThing"></div>
+								</div>
+							</div>
+						</div>
+						<div id="rope"><div></div></div>
+						<div id="rope"><div></div></div>
+						<div id="backpackBottom"></div>
+						<div id="shoulderStrap1"></div>
+						<div id="shoulderStrap2"></div>
+					</div>
+				</div>
+				<div id="stool">
+					<div id="stoolTop"><div></div></div>
+					<div class="stoolLeg" id="sLeg1">
+						<div class="stoolLegTop"><div></div></div>
+					</div>
+					<div id="legHolder"></div>
+					<div class="stoolLeg" id="sLeg2">
+						<div class="stoolLegTop"><div></div></div>
+					</div>
+				</div>
+			</div>
 
-  <footer id="contact" class="footer section-shell">
-    <div>
-      <p class="eyebrow">Let’s talk</p>
-      <h2>If you need someone to build DevRel + developer GTM from zero, I can help.</h2>
-    </div>
-    <div class="footer-links">
-      <a href="mailto:ankit1khare@gmail.com">ankit1khare@gmail.com</a>
-      <a href="https://www.linkedin.com/in/deeplearnerak" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/ankit1khare" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.youtube.com/channel/UCorR-A6259TMcsJMnQO494g" target="_blank" rel="noopener">YouTube</a>
-    </div>
-  </footer>
-</body>
-</html>
+
+			<div id="painting">
+				<div id="innerFrame"></div>
+				<div id="selfPortrait">
+					<div id="pSquare1"></div>
+					<div id="pCircle1"></div>
+					<div id="pCircle2"></div>
+					<div id="pSquare2"></div>
+				</div>
+			</div>
+			<div id="desk">
+				<div id="leftLegBall" class="deskPart"></div>
+				<div id="rightLegBall" class="deskPart"></div>
+				<div id="leftLeg" class="deskPart"></div>
+				<div id="rightLeg" class="deskPart"></div>
+				<div id="leftLegTop" class="deskPart"><div id="legLine1"></div></div>
+				<div id="rightLegTop" class="deskPart"><div id="legLine2"></div></div>
+				<div id="lowerPart" class="deskPart">
+					<div id="drawer" class="deskPart">
+						<div id="innerDrawer"></div>
+						<div id="keyHole"></div>
+					</div>
+				</div>
+				<div id="upperPart" class="deskPart"></div>
+				<div id="coffeeMugOuter">
+					<div class="coffeeSteam"></div>
+					<div class="coffeeSteam"></div>
+					<div class="coffeeSteam"></div>
+					<div  id="coffeeMug">
+						<div></div>
+						<div></div>
+					</div>
+					<div id="coffeeMugHandle"></div>
+				</div>
+				<div id="computer">
+					<div id="compLower"></div>
+					<div id="compUpper">
+						<div id="screen">
+							<div id="line1" class="computerLine hiddenCompLine"></div>
+							<div id="line2" class="computerLine hiddenCompLine"></div>
+							<div id="line3" class="computerLine hiddenCompLine"></div>
+							<div id="line4" class="computerLine hiddenCompLine"></div>
+							<div id="line5" class="computerLine hiddenCompLine"></div>
+							<div id="line6" class="computerLine hiddenCompLine"></div>
+							<div id="line7" class="computerLine hiddenCompLine"></div>
+							<div id="line8" class="computerLine hiddenCompLine"></div>
+							<div id="line9" class="computerLine hiddenCompLine"></div>
+						</div>
+						<div id="webcam"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="timelineStartDot"></div>
+		<div id="timelineStartLine"></div>
+	</section>
+
+
+		<section  id="education" class="education">
+			<div id="eduSummaryWrapper">
+				<div id="progLangs">
+					<div class="progLang">
+							<h2>Subjects<span class="red"> covered</span></h2>
+					</div>
+					<div class="progLang">
+						<p>Neural Networks</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+					<div class="progLang">
+						<p>Computer Vision</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+					<div class="progLang">
+						<p>Image Captioning</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+					<div class="progLang">
+						<p>AI-assisted Path Planning</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+					<div class="progLang">
+						<p>Data Modelling</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+					<div class="progLang">
+						<p>Software Engineering</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+					<div class="progLang">
+						<p>and others..</p>
+						<div class="timelineDotUpper"></div>
+					</div>
+				</div>
+
+				<div id="upperTimeline"></div>
+				<div class="eduSummary">
+					<div class="timelineStopLine"></div>
+					<div id="timelineDotHeader"></div>
+					<h1 >Education</h1>
+					<div class="thinBorder"></div>
+					<p>
+						I graduated with a Master's degree in Computer Science from UT-Arlington. During my time in the program, I focused on understanding the principles behind machine learning and explored how deep learning enables computers to process visual, auditory, and linguistic data. Some of my happiest memories from my graduate days include engaging in conversations with my supervising professor, Dr. Huber, and his company during our conference presentations, as well as working under his supervision to publish my research on image captioning using deep neural networks and path planning using deep reinforcement learning.
+					</p>
+					<div class="timelineStopLine"></div>
+				</div>
+
+			</div>
+			<div id="eduPeriscopeWrapper">
+				<div id="eduLowerBackground"></div>
+				<div class="eduPeriscope">
+					<div style="padding:100% 0 0 0;position:relative;">
+						<iframe src="https://player.vimeo.com/video/784292228?muted=1&amp;autoplay=1&amp;loop=1&amp;h=6dce555670&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:-658px;left:-330px;width:200%;height:300%;" title="My Video5.mp4"></iframe>
+					</div>
+				</div>
+				<div class="timelineWrapper"><div class="contTimeline"></div></div>
+			</div>
+			<div id="eduTimelineWrapper">
+
+				<div class="timelineWrapper"><div class="contTimeline"></div></div>
+				<div class="smallerContainer">
+					<div class="eduTimeline">
+						<div id="edus">
+							<div class="edu">
+								<div class="leftOfTimeline">
+									<div class="university">
+										<h2>The University of Texas at Arlington</h2>
+										<h3>Arlington, Texas</h3>
+										<p>Master of Science - AI & Intelligent Agents</p>
+										<div class="showCourses"><p>Show Courses</p></div>
+									</div>
+								</div>
+								<div class="timelineDot"></div>
+								<div class="rightOfTimeline">
+									<p>2016 - 2019</p>
+								</div>
+								<div class="courseWrapper">
+									<div class="courses">
+										<div class="coursesUpper">
+											<p>Courses</p>
+										</div>
+										<div class="listWrapper">
+											<div class="courseListWrapper">
+												<ul class="courseList">
+													<li>Neural Networks</li>
+													<li>Statistics</li>
+													<li>Computer Vision</li>
+													<li>Directed studies - Image Captioning architectures</li>
+													<li>Data Modeling</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="edu">
+								<div class="leftOfTimeline">
+									<div class="university">
+										<h2>Lovely Professional University</h2>
+										<h3>Punjab, India</h3>
+										<p>B.Tech (Hons.) Computer Science</p>
+										<div class="showCourses"><p>Show Courses</p></div>
+									</div>
+								</div>
+								<div class="timelineDot"></div>
+								<div class="rightOfTimeline">
+									<p>2010-2014</p>
+								</div>
+								<div class="courseWrapper">
+									<div class="courses">
+										<div class="coursesUpper">
+											<p>Courses</p>
+										</div>
+										<div class="listWrapper">
+											<div class="courseListWrapper">
+												<ul class="courseList">
+													<li>Software design and testing</li>
+													<li>Java</li>
+													<li>C++</li>
+													<li>Autocad</li>
+													<li>Algorithms</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="experience" class="experience">
+			<div class="expUpper">
+				<h1 >Experience</h1>
+				<div id="workWrapper">
+					<div class="flip3d bigButton">
+						<div class="workButton">
+							<a data-target="mediaM" data-color ="red">
+								<p>Rockset</p>
+							</a>
+						</div>
+						<div class="workButtonBack">
+							<a data-color ="red">
+								<p>Developer Relations Specialist</p>
+								<em>Oct. 2023 - Present</em>
+							</a>
+						</div>
+					</div>
+					<div class="flip3d bigButton">
+						<div class="workButton">
+							<a data-target="siba" data-color ="red">
+								<p>Twelve Labs</p>
+							</a>
+						</div>
+						<div class="workButtonBack">
+							<a data-color ="red">
+								<p>Developer Experience Lead</p>
+								<em>Feb. 2023 - Sep. 2023</em>
+							</a>
+						</div>
+					</div>
+					<div class="flip3d bigButton">
+						<div class="workButton">
+							<a data-target="ericsson" data-color ="red">
+								<p>Abacus.AI</p>
+							</a>
+						</div>
+						<div class="workButtonBack">
+							<a data-color ="red">
+								<p>Head of DevRel</p>
+								<em>2020 - 2023</em>
+							</a>
+						</div>
+					</div>
+					<div class="flip3d bigButton">
+						<div class="workButton">
+							<a data-target="contextvision" data-color ="red">
+								<p>UT-Arlington</p>
+							</a>
+						</div>
+						<div class="workButtonBack">
+							<a data-color ="red">
+								<p>Graduate Researcher</p>
+								<em>2018-2019</em>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<div id="popDownWrapper">
+				<div class="siba workplace">
+					<div class="workplaceHeader">
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>Feb. 2023</p>
+							</div>
+							<div class="workButtonBack">
+								<p>From</p>
+							</div>
+						</div>
+						<div class="imgPosition">
+							<img src="images/tl_logo.png" alt="">
+							<p class="position">Developer Experience Lead</p>
+						</div>
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>Sep. 2023</p>
+							</div>
+							<div class="workButtonBack">
+								<p>To</p>
+							</div>
+						</div>
+					</div>
+					<p>Twelve Labs is building powerful video understanding technology. Their multimodal AI helps businesses and developers deliver contextual search, generate summaries, classify content, and much more. The central theme is to help humans understand videos better and faster. Check out some of the API tutorials I wrote for them; each tutorial comes with a web app built to demonstrate how the APIs could be used: <a href="https://www.twelvelabs.io/blog-categories/tutorial" target="_blank" style="text-decoration: underline; font-style: italic;">Twelve Labs API Tutorials</a>
+					</p>
+				</div>
+
+				<div class="mediaM workplace">
+					<div class="workplaceHeader">
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>Oct 2023</p>
+							</div>
+							<div class="workButtonBack">
+								<p>From</p>
+							</div>
+						</div>
+						<div class="imgPosition">
+							<img src="images/rockset.png" alt="">
+							<p class="position">Developer Relations Specialist</p>
+						</div>
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>Present</p>
+							</div>
+							<div class="workButtonBack">
+								<p>To</p>
+							</div>
+						</div>
+					</div>
+					<p>Rockset indexes your vector, text, geospatial, and JSON data for the most efficient hybrid search and real-time analytics at any scale. I'm shaping the developer relations function at Rockset, focusing primarily on establishing Rockset as the go-to retrieval data system for GenAI app builders and a speed layer for real-time search and analytics developers. Check out this playlist of short videos I produced  <a href="https://www.youtube.com/playlist?list=PLinxPR8yVNSLRvc4WIK_9TLpB90foJcr6" target="_blank" style="text-decoration: underline; font-style: italic;">Short clips and movies produced in-house at Rockset.</a> 
+				</div>
+
+
+				<div class="ericsson workplace">
+					<div class="workplaceHeader">
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>May 2020</p>
+							</div>
+							<div class="workButtonBack">
+								<p>From</p>
+							</div>
+						</div>
+						<div class="imgPosition">
+							<img src="images/abacusai.png" alt="">
+							<p class="position">Head of Content & DevRel</p>
+						</div>
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>Jan. 2023</p>
+							</div>
+							<div class="workButtonBack">
+								<p>To</p>
+							</div>
+						</div>
+					</div>
+					<p>Abacus.AI is an AI-assisted data science and end-to-end MLOps platform that enables real-time machine learning and deep learning at scale for common enterprise use cases. I have experienced the full spectrum of DevRel, from managing the documentation center, building communities on Slack and Eventbrite, running monthly coding workshops, to conducting customer demos and writing blogs/tutorials. Check out their documentation center that I used to manage: <a href="https://abacus.ai/help/useCases" target="_blank" style="text-decoration: underline; font-style: italic;">https://abacus.ai/help/useCases</p>
+				</div>
+
+				<div class="contextvision workplace">
+					<div class="workplaceHeader">
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>2018</p>
+							</div>
+							<div class="workButtonBack">
+								<p>From</p>
+							</div>
+						</div>
+						<div class="imgPosition">
+							<img src="images/uta.jpg" alt="">
+							<p class="position">Graduate Researcher</p>
+						</div>
+						<div class="flip3d smallButton">
+							<div class="workButton">
+								<p>2019</p>
+							</div>
+							<div class="workButtonBack">
+								<p>To</p>
+							</div>
+						</div>
+					</div>
+					<p>My first DevRel experience was at the Learning and Adaptive Robotics lab at UT-Arlington, where I developed an innovative deep-learning encoder-decoder system for image captioning. This resulted in human-like captions that outperformed existing models by 3.7%. My work was presented at BMVC 2019 and received a Best Student Paper Honorable Mention. Additionally, I created two popular YouTube videos on using computer vision for automated parking systems, which led to numerous production requests and appreciation emails for sharing my code and ideas.</p>
+				</div>
+
+			</div>
+		<section class="projects" id="projects">
+			<div id="projectFilter"></div>
+			<div class="container">
+				<a class="slideDir" id="slideLeft" href="javascript:void(0)"><i class="fa fa-angle-left"></i></a>
+				<a class="slideDir" id="slideRight" href="javascript:void(0)"><i class="fa fa-angle-right"></i></a>
+				<div id="projWrapper">
+					<h1 id="projectHeader" >Some Projects</h1>
+					<div class="slideDiv" id="div3">
+						<div class="info">
+							<a href="https://www.youtube.com/watch?v=qZysarwdh1M" style="font-style: italic; text-decoration: underline;font-weight: bold; color: blue;" target="_blank"><p>The Secret Sauce - Vodcast with AK</p></a>
+							<em>Season 1 - Developer Relations</em>
+							<ul>
+								<li>Join me as we dive into the fascinating journeys and unique 'Secret Sauces' of remarkable individuals, highlighting everything from their professional triumphs to their everyday acts of kindness.</li>
+								<li>Season 1 spotlights Developer Relations where I dive deep with DevRel experts and rising stars, sharing insights and laughters, while unlocking strategies for success.</li>
+							</ul>
+							<div class="thickBorder"></div>
+							<em>Episode List</em>
+							<ul>
+										<li><a href="https://youtu.be/cpyVKYZEZrw" target="_blank" style="font-style: italic; text-decoration: underline;font-weight: bold;">Developer Relations Wizard: Sean Falconer | The Secret Sauce #1</a></li>
+										<li><a href="https://www.youtube.com/watch?v=cpyVKYZEZrw" target="_blank" style="font-style: italic; text-decoration: underline;font-weight: bold;">GenAI Hacker & Dev Avocado: Harpreet Sahota | The Secret Sauce #2</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="slideDiv" id="div4">
+						<div class="info">
+							<a href="https://github.com/ankit1khare/Easy_street_parking_with_MASK-RCNN"  target="_blank"><p>Easy Street Parking using Computer Vision</p></a>
+							<em>A prototype for computer vision-based parking management system</em>
+							<p>This was a project that I did while I was an RA at UT-Arlington's LEARN lab.</p>
+							<p> MASK RCNN + IoU (intersection over union) + Twilio API = Awesome AI-assisted Parking Management System. <br> Watch <a href="https://www.youtube.com/watch?v=1aNT6S_VBNc" target="_blank">Full Tutorial</a>
+							<!-- https://www.youtube.com/watch?v=y1M5dNkvCJc -->
+							<em>Languages, libraries and tools used</em>
+							<ul>
+								<li>Python</li>
+								<li>Jupyter Notebook</li>
+								<li>Fastai</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="slideDiv" id="div2">
+						<div class="info">
+							<a href="https://github.com/ankit1khare/Deep-Neural-Network-based-parking-system"  target="_blank"><p>
+								Car Parking Status Detection using AI</p></a>
+							<em>Identifying empty parking spaces in a Car Parking using camera at Lamp post view</em>
+							<p>For my computer vision class project, each student was required to work independently and apply what we learned in class to develop something unique. I created a system that classifies parking spaces as occupied or vacant for all the spaces marked within the frame. This system is particularly useful in scenarios where a camera is placed on a lamp post to monitor the number of available parking spaces.
+
+								The system utilizes a combination of techniques: the Laplacian operator for edge detection, a HAAR classifier for object recognition, and motion tracking to distinguish between parked and vacant spaces. </p> <p>Code - <a href="https://github.com/ankit1khare/ComputerVision" target="_blank">https://github.com/ankit1khare/ComputerVision</a></p>
+							<div class="thickBorder"></div>
+							<em>Languages, libraries and tools used</em>
+							<ul>
+								<li>Python</li>
+								<li>Pytorch</li>
+								<li>Fastai</li>
+								<li>OpenCV</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="slideDiv" id="div1">
+						<div class="info">
+							<a href="https://github.com/ankit1khare/DeepSegment" target="_blank"><p>Deep Segment</p></a>
+							<em>Image Segmentation using Deep Learning</em>
+							<p>A colleague from my lab at UT-Arlington was working on a project where he wanted his robot to navigate the surface of the land without colliding with nearby cones and dust piles. I helped him by training an image segmentation model using Google's DeepLabV3+ architecture for image segmentation.<br> Github link - <a href="https://github.com/ankit1khare/DeepSegment">https://github.com/ankit1khare/DeepSegment</a></p>
+							<div class="thickBorder"></div>
+							<em>Languages, libraries and tools used</em>
+							<ul>
+								<li>Tensorflow</li>
+								<li>Python</li>
+							</ul>
+						</div>
+					</div>
+					<div id="projImages">
+						<a id="mapapp" href="javascript:void(0)" data-target="2" class="prototype"><img src="https://i.imgur.com/p0641yw.gif" alt=""></img></a>
+						<a id="ethcircle" href="javascript:void(0)" data-target="4" class="prototype"><img src="https://i.imgur.com/gpkl7Il.gif" alt=""></img></a>
+						<a id="sonus" href="javascript:void(0)" data-target="3" class="prototype"><img src="images/vodcast.png" alt=""></img></a>
+						<a id="site" href="javascript:void(0)" data-target="1" class="prototype"><img src="images/deep_segment.gif" alt=""></img></a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<footer id="contact">
+			<div id="contactWrapper">
+				<h1>Drop Me a Line <div id="contactHeaderLine"></div></h1>
+				<a id="mail" href="mailto:ankit1khare@gmail.com">ankit1khare@gmail.com</a>
+				<div id="socWrap">
+					<div id="socMediaHeader">
+						<div id="socBorderLeft"></div>
+						<h2>Social Media</h2>
+						<div id="socBorderRight"></div>
+					</div>
+					<a id="github" class="socMedia" target="_blank" href="https://github.com/ankit1khare">
+						<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+					</a>
+					<a id="linkedin" class="socMedia" target="_blank" href="https://www.linkedin.com/in/deeplearnerak">
+						<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+					</a>
+					<a id="youtube" class="socMedia" target="_blank" href="https://www.youtube.com/channel/UCorR-A6259TMcsJMnQO494g">
+						<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+					</a>
+					<a id="blog" class="socMedia" target="_blank" href="https://ankit1khare.github.io">
+						<i class="fa fa-stack-1x fa-inverse fa-rss"></i>
+					</a>
+				</div>
+			</div>
+			<h2 id="copyright">© 2023 Ankit Khare</h2>
+		</footer>
+
+		<a class="navbuttons" id="scrollUp" data-target="homescreen" href="#">
+		<div>
+			<i class="fa fa-angle-up" aria-hidden="true"></i>
+			<p>TOP</p>
+		</div>
+	</a>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="https://player.vimeo.com/api/player.js"></script>
+		<script src="js/all.js"></script>
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148956670-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-148956670-1');
+		</script>
+
+	</body>
+	</html>
