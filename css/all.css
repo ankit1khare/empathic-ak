@@ -5170,3 +5170,167 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Bay Area bridge hero scene + scroll-linked sunset */
+.startscreen {
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 47%, #fff8ed 71%, #eef8fb 100%);
+}
+
+#bayScene {
+  --sun-x: 23;
+  --sun-y: 9;
+  --sun-scale: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  height: min(56vh, 560px);
+  min-height: 390px;
+  z-index: 2;
+  pointer-events: none;
+  overflow: visible;
+}
+
+#baySun {
+  position: absolute;
+  left: calc(var(--sun-x) * 1%);
+  top: calc(var(--sun-y) * 1%);
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(var(--sun-scale));
+  background: radial-gradient(circle at 38% 35%, #fff8bd 0 17%, #ffd75f 38%, #f79b32 68%, #e36c2e 100%);
+  box-shadow: 0 0 42px rgba(255, 181, 62, 0.52), 0 0 110px rgba(247, 127, 45, 0.24);
+  opacity: var(--sun-opacity, 0.95);
+  z-index: 1;
+  transition: box-shadow 0.2s linear, opacity 0.2s linear;
+  will-change: left, top, transform, opacity;
+}
+
+#bayBridgeScene {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  overflow: visible;
+}
+
+.bay-fog {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.76);
+  stroke-width: 28;
+  stroke-linecap: round;
+}
+
+.bay-fog-two {
+  stroke-width: 20;
+  opacity: 0.76;
+}
+
+.bay-hills-back {
+  fill: url(#bayHillGradient);
+  opacity: 0.28;
+}
+
+.bay-water {
+  fill: url(#bayWaterGradient);
+  opacity: 0.88;
+}
+
+.bay-hills-front {
+  fill: #2e3633;
+  opacity: 0.9;
+}
+
+.bay-bridge {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bridge-cable {
+  stroke: #b5482d;
+  stroke-width: 13;
+}
+
+.bridge-cable-secondary {
+  stroke: rgba(181, 72, 45, 0.78);
+  stroke-width: 6;
+}
+
+.bridge-suspenders line {
+  stroke: rgba(167, 58, 36, 0.86);
+  stroke-width: 4;
+}
+
+.bridge-tower rect {
+  fill: #be4b2f;
+  stroke: rgba(92, 30, 19, 0.28);
+  stroke-width: 2;
+}
+
+.bridge-deck-shadow {
+  stroke: rgba(81, 40, 31, 0.26);
+  stroke-width: 30;
+}
+
+.bridge-deck {
+  stroke: #ba4a2f;
+  stroke-width: 18;
+}
+
+.bridge-road {
+  stroke: #402f2b;
+  stroke-width: 6;
+  opacity: 0.92;
+}
+
+#lowerBackground {
+  z-index: 3;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #ffffff 52%);
+}
+
+#welcome {
+  text-shadow: 0 8px 30px rgba(0, 0, 0, 0.34);
+}
+
+@media screen and (max-width: 900px) {
+  #bayScene {
+    height: min(50vh, 500px);
+    min-height: 330px;
+  }
+
+  #baySun {
+    width: 74px;
+    height: 74px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #heroOperatorPill {
+    top: 31%;
+    max-width: 250px;
+  }
+
+  #hi {
+    top: 43.5%;
+  }
+
+  #bayScene {
+    bottom: 48px;
+    height: 42vh;
+    min-height: 280px;
+  }
+
+  #baySun {
+    width: 58px;
+    height: 58px;
+  }
+
+  #welcome {
+    left: 50%;
+    bottom: 185px;
+    font-size: 42px;
+  }
+}

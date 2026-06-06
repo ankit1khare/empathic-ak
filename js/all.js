@@ -110,6 +110,22 @@ $(document).ready(function () {
         "transform",
         "translateY(" + Math.round(0.5 * t) + "px)"
       );
+
+    var $bayScene = $("#bayScene");
+    if ($bayScene.length) {
+      var heroTravel = Math.max(1, ($("#homescreen").outerHeight() || $(window).height()) * 0.9);
+      var p = Math.max(0, Math.min(1, t / heroTravel));
+      var eased = 0.5 - Math.cos(p * Math.PI) / 2;
+      var sunX = 23 + eased * 52;
+      var sunY = 9 + eased * 68;
+      var sunScale = 1 - eased * 0.28;
+      var sunOpacity = 0.95 - eased * 0.16;
+      var baySceneNode = $bayScene[0];
+      baySceneNode.style.setProperty("--sun-x", sunX.toFixed(2));
+      baySceneNode.style.setProperty("--sun-y", sunY.toFixed(2));
+      baySceneNode.style.setProperty("--sun-scale", sunScale.toFixed(3));
+      baySceneNode.style.setProperty("--sun-opacity", sunOpacity.toFixed(3));
+    }
   }
   function e(t) {
     var e = ($(window).scrollTop(), t),
@@ -201,6 +217,7 @@ $(document).ready(function () {
             opacity: "1",
           });
   }
+  t();
   $(window).bind("scroll", function (e) {
     t();
   }),

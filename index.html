@@ -6,7 +6,7 @@
 	<title>Ankit Khare | DevRel & Developer GTM</title>
 	<meta name="description" content="Ankit Khare — Developer Relations leader who connects developer education, community, product feedback, and GTM strategy for AI and developer platforms.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/all.css?v=bay-bridge-sunset-4">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 	<!-- Oswald -->
@@ -74,9 +74,71 @@
 		<h1 id="hi">Hi. My name is Ankit. <br> <span>Developer relations leader for AI and developer platforms</span></h1>
 		<h1 id="welcome">Welcome</h1>
 
-		<div id="forestHolder"><img src="images/forest.svg" id="forest"></div>
-		<div id="mountainHolder"><img src="images/mountains.svg" id="mountain"></div>
-		<div id="mountainHolder2"><img src="images/mountains2.svg" id="mountain2"></div>
+		<div id="bayScene" aria-hidden="true">
+			<div id="baySun"></div>
+			<svg id="bayBridgeScene" viewBox="0 0 1440 620" preserveAspectRatio="none" focusable="false">
+				<defs>
+					<linearGradient id="bayWaterGradient" x1="0" y1="0" x2="0" y2="1">
+						<stop offset="0%" stop-color="#e9f7fb"/>
+						<stop offset="100%" stop-color="#cfe8ee"/>
+					</linearGradient>
+					<linearGradient id="bayHillGradient" x1="0" y1="0" x2="1" y2="1">
+						<stop offset="0%" stop-color="#5b402a"/>
+						<stop offset="100%" stop-color="#2f3532"/>
+					</linearGradient>
+					<filter id="softBridgeShadow" x="-10%" y="-20%" width="120%" height="150%">
+						<feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#312017" flood-opacity="0.18"/>
+					</filter>
+				</defs>
+
+				<path class="bay-fog bay-fog-one" d="M0 255 C180 230 280 280 450 250 S780 210 980 242 1250 300 1440 258"/>
+				<path class="bay-fog bay-fog-two" d="M0 315 C210 285 360 340 560 300 S850 260 1030 298 1250 350 1440 315"/>
+
+				<path class="bay-hills bay-hills-back" d="M0 412 C120 378 228 390 346 356 C466 320 575 360 690 330 C800 300 915 326 1035 304 C1160 280 1290 312 1440 292 L1440 620 L0 620 Z"/>
+				<path class="bay-water" d="M0 438 C205 416 394 452 612 430 C825 408 1034 430 1242 416 C1322 410 1388 414 1440 421 L1440 620 L0 620 Z"/>
+
+				<g class="bay-bridge" filter="url(#softBridgeShadow)">
+					<path class="bridge-cable bridge-cable-main" d="M-40 422 C138 360 244 180 384 165 C520 150 590 338 720 356 C850 338 918 150 1056 165 C1194 180 1302 360 1480 422"/>
+					<path class="bridge-cable bridge-cable-secondary" d="M-40 452 C142 386 260 224 384 214 C516 204 598 378 720 392 C842 378 924 204 1056 214 C1180 224 1298 386 1480 452"/>
+
+					<g class="bridge-suspenders bridge-suspenders-left">
+						<line x1="110" y1="391" x2="110" y2="442"/><line x1="168" y1="345" x2="168" y2="438"/>
+						<line x1="226" y1="276" x2="226" y2="434"/><line x1="284" y1="211" x2="284" y2="431"/>
+						<line x1="342" y1="172" x2="342" y2="429"/><line x1="442" y1="178" x2="442" y2="429"/>
+						<line x1="500" y1="221" x2="500" y2="431"/><line x1="558" y1="287" x2="558" y2="435"/>
+						<line x1="616" y1="337" x2="616" y2="439"/>
+					</g>
+					<g class="bridge-suspenders bridge-suspenders-right">
+						<line x1="824" y1="337" x2="824" y2="439"/><line x1="882" y1="287" x2="882" y2="435"/>
+						<line x1="940" y1="221" x2="940" y2="431"/><line x1="998" y1="178" x2="998" y2="429"/>
+						<line x1="1098" y1="172" x2="1098" y2="429"/><line x1="1156" y1="211" x2="1156" y2="431"/>
+						<line x1="1214" y1="276" x2="1214" y2="434"/><line x1="1272" y1="345" x2="1272" y2="438"/>
+						<line x1="1330" y1="391" x2="1330" y2="442"/>
+					</g>
+
+					<g class="bridge-tower bridge-tower-left">
+						<rect x="344" y="160" width="32" height="292" rx="5"/>
+						<rect x="392" y="160" width="32" height="292" rx="5"/>
+						<rect x="330" y="208" width="108" height="16" rx="8"/>
+						<rect x="334" y="298" width="100" height="14" rx="7"/>
+						<rect x="338" y="392" width="92" height="14" rx="7"/>
+					</g>
+					<g class="bridge-tower bridge-tower-right">
+						<rect x="1016" y="160" width="32" height="292" rx="5"/>
+						<rect x="1064" y="160" width="32" height="292" rx="5"/>
+						<rect x="1002" y="208" width="108" height="16" rx="8"/>
+						<rect x="1006" y="298" width="100" height="14" rx="7"/>
+						<rect x="1010" y="392" width="92" height="14" rx="7"/>
+					</g>
+
+					<path class="bridge-deck-shadow" d="M-30 454 C260 423 490 432 720 432 C950 432 1180 423 1470 454"/>
+					<path class="bridge-deck" d="M-30 438 C260 408 490 418 720 418 C950 418 1180 408 1470 438"/>
+					<path class="bridge-road" d="M-30 452 C260 424 490 432 720 432 C950 432 1180 424 1470 452"/>
+				</g>
+
+				<path class="bay-hills bay-hills-front" d="M0 504 C150 472 260 492 372 462 C485 432 610 472 724 458 C842 444 940 490 1058 468 C1180 444 1310 472 1440 450 L1440 620 L0 620 Z"/>
+			</svg>
+		</div>
 		<div id="lowerBackground"></div>
 
 		<a target="_blank", class="landing_link" id="landing_linkedin" href="work.html" style="right: 150px;">
@@ -743,7 +805,7 @@
 		<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 		<script src="https://player.vimeo.com/api/player.js"></script>
-		<script src="js/all.js"></script>
+		<script src="js/all.js?v=bay-bridge-sunset-4"></script>
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148956670-1"></script>
